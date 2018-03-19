@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.NTS"
+        minSdkVersion 8
+        targetSdkVersion 8
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/Bxlprint.jar')
+    compile files('libs/httpclient-4.1.1.jar')
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/utility.jar')
+    compile files('libs/WoosimLib.jar')
+    compile files('libs/bw_pos_sdk2.0.21.jar')
+    compile files('libs/classes_2.1.26_20170608.jar')
+}

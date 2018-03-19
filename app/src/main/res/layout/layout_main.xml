@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/graybox" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        >
+        <include layout="@layout/title_layout" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_main_wrapup"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_onoff"
+               	android:text="마감"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_main_monthly"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_onoff"
+                android:text="월정기"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_main_unpaid"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_onoff"
+                android:text="미수금"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_main_end"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_onoff"
+                android:drawableLeft="@drawable/btn_top_no"
+                android:text="종료"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/btn_main_enterout"
+                android:layout_width="90dp"
+                android:layout_height="45dip"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/selector_btn_onoff"
+                android:text="출퇴근"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+            
+            <Button
+                android:id="@+id/btn_main_coupons"
+                android:layout_width="90dp"
+                android:layout_height="45dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_btn_onoff"
+                android:onClick="onClickBtn"
+                android:text="쿠폰판매"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/btn_main_enterout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/graybox" />
+
+            <ImageView
+                android:id="@+id/iv_parksign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/parking" 
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_sign_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/iv_parksign"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-9dip"
+                android:background="@drawable/column" />
+
+            <ImageView
+                android:id="@+id/iv_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_toLeftOf="@+id/iv_sign_holder"
+                android:background="@drawable/text1" 
+                android:layout_marginTop="100dp"
+                />
+
+            <Button
+                android:id="@+id/btn_main_incar"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_title_text"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_btn_onoff_light"
+                android:text="입차"
+                android:textColor="@android:color/black"
+                android:textSize="17sp" 
+                android:layout_marginTop="10dp"
+                android:drawableTop="@drawable/btn_incar"
+                />
+
+            <Button
+                android:id="@+id/btn_main_outcar"
+                android:layout_width="110dp"
+                android:layout_height="100dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/iv_title_text"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_btn_onoff_light"
+                android:text="출차"
+                android:textColor="@android:color/black"
+                android:drawableTop="@drawable/btn_outcar"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_main_receipts"
+                android:layout_width="110dp"
+                android:layout_height="100dip"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btn_main_incar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_btn_onoff_light"
+                android:text="영수증"
+                android:textColor="@android:color/black"
+                android:drawableTop="@drawable/btn_receipt"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_main_report"
+                android:layout_width="110dp"
+                android:layout_height="100dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btn_main_incar"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_btn_onoff_light"
+                android:text="미납등록"
+                android:textColor="@android:color/black"
+                android:drawableTop="@drawable/btn_income"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

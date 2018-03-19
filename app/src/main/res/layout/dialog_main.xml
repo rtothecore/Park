@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000" 
+    android:orientation="vertical">
+	
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dip"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="주차장명:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/spce_name"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="주차요원:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/mng_name"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="시작시간:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/strat_time"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="종료시간:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/end_time"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="주차금액:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/income"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="미납징수:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/minap"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="미납발생:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/misu"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="월 정 기  :"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/monthly"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="쿠폰판매:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/coupon"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="쿠폰사용:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/coupon_use"
+	    	android:text="엔텍소프트"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="수입합계:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/total"
+	    	android:text="엔텍소프트"
+	    	android:textColor="#eeeeee"
+	    	android:textSize="15dip"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginTop="5dip"
+    	android:orientation="horizontal">
+    	
+        <TextView 
+	    	android:text="일  자:"
+	    	android:textSize="15dip"
+	    	android:textColor="#eeeeee"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+        <TextView 
+	    	android:id="@+id/todate"
+	    	android:text="엔텍소프트"
+	    	android:textColor="#eeeeee"
+	    	android:textSize="15dip"
+	    	android:layout_marginLeft="10dip"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+	
+
+</LinearLayout>

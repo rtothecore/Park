@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="area1">1\n t1</string>
+    <string name="app_name">공영주차시스템</string>
+	<string-array name="arr_coupon_items">
+		<item>100원</item>
+		<item>200원</item>
+		<item>300원</item>
+		<item>400원</item>
+		<item>500원</item>
+		<item>600원</item>
+		<item>1000원</item>
+		<item>1400원</item>
+	</string-array>
+	<string-array name="arr_carnum1">
+	    <item>없음</item>
+		<item>서울</item>
+		<item>경기</item>
+		<item>인천</item>
+		<item>부산</item>
+		<item>대구</item>
+		<item>광주</item>
+		<item>대전</item>
+		<item>울산</item>
+		<item>강원</item>
+		<item>충남</item>
+		<item>충북</item>
+		<item>전남</item>
+		<item>전북</item>
+		<item>경남</item>
+		<item>경북</item>
+		<item>제주</item>
+		<item>임시</item>
+	</string-array>
+
+
+	<string-array name="hangle">
+		<item>ㄱ</item>
+		<item>ㄴ</item>
+		<item>ㄷ</item>
+		<item>ㄹ</item>
+		<item>ㅁ</item>
+		<item>ㅂ</item>
+		<item>ㅅ</item>
+		<item>ㅇ</item>
+		<item>ㅈ</item>
+		<item>ㅊ</item>
+		<item>ㅋ</item>
+		<item>ㅌ</item>
+		<item>ㅍ</item>
+		<item>ㅎ</item>
+	</string-array>
+	<string-array name="key_1">
+		<item>가</item>
+		<item>거</item>
+		<item>그</item>
+		<item>고</item>
+		<item>공</item>
+		<item>구</item>
+	</string-array>
+	<string-array name="key_2">
+		<item>나</item>
+		<item>너</item>
+		<item>느</item>
+		<item>노</item>
+		<item>누</item>
+	</string-array>
+	<string-array name="key_3">
+		<item>다</item>
+		<item>더</item>
+		<item>드</item>
+		<item>도</item>
+		<item>두</item>
+	</string-array>
+	<string-array name="key_4">
+		<item>라</item>
+		<item>러</item>
+		<item>르</item>
+		<item>로</item>
+		<item>루</item>
+	</string-array>
+	<string-array name="key_5">
+		<item>마</item>
+		<item>머</item>
+		<item>므</item>
+		<item>모</item>
+		<item>무</item>
+	</string-array>
+	<string-array name="key_6">
+		<item>바</item>
+		<item>배</item>
+		<item>버</item>
+		<item>브</item>
+		<item>보</item>
+		<item>부</item>
+	</string-array>
+	<string-array name="key_7">
+		<item>사</item>
+		<item>서</item>
+		<item>스</item>
+		<item>소</item>
+		<item>수</item>
+	</string-array>
+	<string-array name="key_8">
+		<item>아</item>
+		<item>어</item>
+		<item>으</item>
+		<item>오</item>
+		<item>우</item>
+		<item>육</item>
+	</string-array>
+	<string-array name="key_9">
+		<item>자</item>
+		<item>저</item>
+		<item>즈</item>
+		<item>조</item>
+		<item>주</item>
+	</string-array>
+	<string-array name="key_10">
+		<item>차</item>
+		<item>처</item>
+		<item>츠</item>
+		<item>초</item>
+		<item>추</item>
+	</string-array>
+	<string-array name="key_11">
+		<item>카</item>
+		<item>커</item>
+		<item>크</item>
+		<item>코</item>
+		<item>쿠</item>
+	</string-array>
+	<string-array name="key_12">
+		<item>타</item>
+		<item>터</item>
+		<item>트</item>
+		<item>토</item>
+		<item>투</item>
+	</string-array>
+	<string-array name="key_13">
+		<item>파</item>
+		<item>퍼</item>
+		<item>프</item>
+		<item>포</item>
+		<item>푸</item>
+	</string-array>
+	<string-array name="key_14">
+		<item>하</item>
+		<item>해</item>
+		<item>허</item>
+		<item>흐</item>
+		<item>호</item>
+		<item>후</item>
+	</string-array>
+	
+	<string-array name="usetype">
+		<item>전일</item>
+		<item>주간</item>
+		<item>야간</item>
+	</string-array>
+	
+</resources>

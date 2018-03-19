@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_carnum1">
+	    <item>없음</item>
+		<item>서울</item>
+		<item>경기</item>
+		<item>인천</item>
+		<item>부산</item>
+		<item>대구</item>
+		<item>광주</item>
+		<item>대전</item>
+		<item>울산</item>
+		<item>강원</item>
+		<item>충남</item>
+		<item>충북</item>
+		<item>전남</item>
+		<item>전북</item>
+		<item>경남</item>
+		<item>경북</item>
+		<item>제주</item>
+		<item>임시</item>
+	</string-array>
+    <string-array name="arr_coupon_items">
+		<item>100원</item>
+		<item>200원</item>
+		<item>300원</item>
+		<item>400원</item>
+		<item>500원</item>
+		<item>600원</item>
+		<item>1000원</item>
+		<item>1400원</item>
+	</string-array>
+    <string-array name="hangle">
+		<item>ㄱ</item>
+		<item>ㄴ</item>
+		<item>ㄷ</item>
+		<item>ㄹ</item>
+		<item>ㅁ</item>
+		<item>ㅂ</item>
+		<item>ㅅ</item>
+		<item>ㅇ</item>
+		<item>ㅈ</item>
+		<item>ㅊ</item>
+		<item>ㅋ</item>
+		<item>ㅌ</item>
+		<item>ㅍ</item>
+		<item>ㅎ</item>
+	</string-array>
+    <string-array name="key_1">
+		<item>가</item>
+		<item>거</item>
+		<item>그</item>
+		<item>고</item>
+		<item>공</item>
+		<item>구</item>
+	</string-array>
+    <string-array name="key_10">
+		<item>차</item>
+		<item>처</item>
+		<item>츠</item>
+		<item>초</item>
+		<item>추</item>
+	</string-array>
+    <string-array name="key_11">
+		<item>카</item>
+		<item>커</item>
+		<item>크</item>
+		<item>코</item>
+		<item>쿠</item>
+	</string-array>
+    <string-array name="key_12">
+		<item>타</item>
+		<item>터</item>
+		<item>트</item>
+		<item>토</item>
+		<item>투</item>
+	</string-array>
+    <string-array name="key_13">
+		<item>파</item>
+		<item>퍼</item>
+		<item>프</item>
+		<item>포</item>
+		<item>푸</item>
+	</string-array>
+    <string-array name="key_14">
+		<item>하</item>
+		<item>해</item>
+		<item>허</item>
+		<item>흐</item>
+		<item>호</item>
+		<item>후</item>
+	</string-array>
+    <string-array name="key_2">
+		<item>나</item>
+		<item>너</item>
+		<item>느</item>
+		<item>노</item>
+		<item>누</item>
+	</string-array>
+    <string-array name="key_3">
+		<item>다</item>
+		<item>더</item>
+		<item>드</item>
+		<item>도</item>
+		<item>두</item>
+	</string-array>
+    <string-array name="key_4">
+		<item>라</item>
+		<item>러</item>
+		<item>르</item>
+		<item>로</item>
+		<item>루</item>
+	</string-array>
+    <string-array name="key_5">
+		<item>마</item>
+		<item>머</item>
+		<item>므</item>
+		<item>모</item>
+		<item>무</item>
+	</string-array>
+    <string-array name="key_6">
+		<item>바</item>
+		<item>배</item>
+		<item>버</item>
+		<item>브</item>
+		<item>보</item>
+		<item>부</item>
+	</string-array>
+    <string-array name="key_7">
+		<item>사</item>
+		<item>서</item>
+		<item>스</item>
+		<item>소</item>
+		<item>수</item>
+	</string-array>
+    <string-array name="key_8">
+		<item>아</item>
+		<item>어</item>
+		<item>으</item>
+		<item>오</item>
+		<item>우</item>
+		<item>육</item>
+	</string-array>
+    <string-array name="key_9">
+		<item>자</item>
+		<item>저</item>
+		<item>즈</item>
+		<item>조</item>
+		<item>주</item>
+	</string-array>
+    <integer-array name="reserveparking_moneys">
+		<item>1500</item>
+		<item>3000</item>
+		<item>6000</item>
+		<item>9000</item>
+	</integer-array>
+    <integer-array name="reserveparking_times">
+		<item>30</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</integer-array>
+    <string-array name="usetype">
+		<item>전일</item>
+		<item>주간</item>
+		<item>야간</item>
+	</string-array>
+    <color name="area_num_color">#87ceeb</color>
+    <color name="areacolor">#ffc8c8</color>
+    <color name="blue">#0000ff</color>
+    <color name="car_num_color">#e0ffff</color>
+    <color name="carinfo_pressed">#2f4f4f</color>
+    <color name="carnum_text_color">#FE0000</color>
+    <color name="deep_sky_blue">#00bfFf</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="green">#adff2f</color>
+    <color name="incar_bg_color">#6799E2</color>
+    <color name="lemonchiphon">#fffacd</color>
+    <color name="light_cyan">#e0ffff</color>
+    <color name="orange">#ffa500</color>
+    <color name="parkingtime_text_color">#FE0000</color>
+    <color name="selectincararea_bg_color">#6799E2</color>
+    <color name="selectincararea_line_color">#5f5f5f</color>
+    <color name="selectincararea_textviews_color">#deb887</color>
+    <color name="sky_blue">#87ceeb</color>
+    <color name="yellow">#ffd700</color>
+    <string name="app_name">공영주차시스템</string>
+    <string name="area1">1\n t1</string>
+    <style name="LoadingDialog">
+	<item name="android:windowFrame">@null</item>
+	<item name="android:windowBackground">@android:color/transparent</item>
+	<item name="android:windowIsFloating">true</item>
+	<item name="android:windowContentOverlay">@null</item>
+	<item name="android:windowTitleStyle">@null</item>
+	<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+	<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+	<item name="android:backgroundDimEnabled">false</item>
+	<item name="android:background">@android:color/transparent</item>
+</style>
+    <style name="carnum_textviews">
+	<item name="android:gravity">center</item>	
+	<item name="android:background">@drawable/btn_bg</item>
+	<item name="android:textColor">@color/carnum_text_color</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:textStyle">bold</item>
+</style>
+    <style name="getcarnum1_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style>
+    <style name="getcarnum2_buttons">
+	<item name="android:layout_width">80dp</item>
+	<item name="android:layout_height">60dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style>
+    <style name="getcarnum3_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style>
+    <style name="incar_layout1_textviews_content">
+	<item name="android:layout_width">200dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:gravity">center</item>
+</style>
+    <style name="incar_layout1_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">18dp</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:gravity">center</item>
+</style>
+    <style name="incar_layout3_textviews">
+	<item name="android:layout_width">200dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#000102</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:paddingBottom">5dp</item>
+</style>
+    <style name="incar_layout3_textviews_title">
+	<item name="android:layout_width">120dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:textSize">17sp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#293b56</item>
+	<item name="android:textStyle">bold</item>
+</style>
+    <style name="incar_layout5_buttons">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_weight">1</item>
+</style>
+    <style name="intro_buttons">
+	<item name="android:layout_width">80dp</item>
+	<item name="android:layout_height">50dp</item>
+</style>
+    <style name="main_center_buttons">
+	<item name="android:layout_width">100dp</item>
+	<item name="android:layout_height">100dp</item>
+</style>
+    <style name="main_top_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:layout_marginRight">5dp</item>
+</style>
+    <style name="main_top_buttons1">
+	<item name="android:layout_width">70dp</item>
+	<item name="android:layout_height">40dp</item>
+</style>
+    <style name="outcar_layout1_textviews_content">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:layout_weight">1</item>
+		<item name="android:textSize">15sp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">@android:color/black</item>
+</style>
+    <style name="outcar_layout1_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#293b56</item>
+</style>
+    <style name="outcar_layout3_textviews">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:layout_weight">1</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#000102</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:paddingBottom">5dp</item>
+	<item name="android:paddingRight">5dp</item>
+	<item name="android:background">@drawable/selector_edittext_onoff</item>
+	
+</style>
+    <style name="outcar_layout3_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:gravity">center_vertical</item>
+	<item name="android:textColor">#293b56</item>
+	<item name="android:textStyle">bold</item>
+</style>
+    <style name="selectincararea_textviews">
+	<item name="android:layout_width">70dp</item>
+	<item name="android:layout_height">55dp</item>
+	<item name="android:lines">2</item>
+	<item name="android:layout_margin">1dp</item>
+	<item name="android:background">@color/selectincararea_textviews_color</item>
+</style>
+    <style name="style_btn_cancel">
+	<item name="android:background">@drawable/selector_btn_onoff_yellow</item>
+	<item name="android:drawableLeft">@drawable/btn_cancel_incar</item>
+	<item name="android:text">취소</item>
+</style>
+    <style name="style_btn_confirm">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:drawableLeft">@drawable/btn_top_ok</item>
+	
+</style>
+    <style name="style_btn_confirm_light">
+	<item name="android:background">@drawable/selector_btn_onoff_light</item>
+	<item name="android:drawableLeft">@drawable/btn_top_ok</item>
+	<item name="android:layout_height">50dp</item>
+</style>
+    <style name="style_btn_editbox">
+	<item name="android:background">@drawable/selector_edittext_onoff</item>
+	
+</style>
+    <style name="style_btn_nomark">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:onClick">onClickBtn</item>
+</style>
+    <style name="style_btn_search">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:drawableLeft">@drawable/ic_btn_search</item>
+	<item name="android:text">조회</item>
+</style>
+</resources>

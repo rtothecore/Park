@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/graybox" 
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:textColor="@android:color/white"
+        android:text="영수증재출력"
+        android:textSize="21sp"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/title_layout" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" 
+            android:background="@drawable/shape_rounded_bg"
+            android:gravity="center">
+            
+			<Button 
+			    android:id="@+id/btn_timedpark"
+	            android:layout_width="200dp"
+	            android:layout_height="65dp"
+	            android:background="@drawable/selector_btn_onoff"
+	            android:drawableLeft="@drawable/clock"
+	            android:text="시간주차"
+	            android:layout_marginBottom="10dp"
+	            android:onClick="onClickBtn"/>
+			            
+			<Button 
+			    android:id="@+id/btn_uncollected"
+	            android:layout_width="200dp"
+	            android:layout_height="65dp"
+	            android:background="@drawable/selector_btn_onoff"
+	            android:drawableLeft="@drawable/calendar"
+	            android:text="미수금"
+	            android:layout_marginBottom="10dp"/>
+			            
+			<Button 
+			    android:id="@+id/btn_daily_report"
+	            android:layout_width="200dp"
+	            android:layout_height="65dp"
+	            android:background="@drawable/selector_btn_onoff"
+	            android:drawableLeft="@drawable/fax"
+	            android:text="영업일보"
+	            android:layout_marginBottom="10dp"
+	            />
+			
+			<Button 
+			    android:id="@+id/btn_trans_data"
+	            android:layout_width="200dp"
+	            android:layout_height="65dp"
+	            android:background="@drawable/selector_btn_onoff"
+	            android:drawableLeft="@drawable/btn_top_no"
+	            android:text="데이터 전송"
+	            android:layout_marginBottom="10dp"
+	            />
+			            
+			<Button 
+			    android:id="@+id/btn_cancel"
+	            android:layout_width="200dp"
+	            android:layout_height="65dp"
+	            style="@style/style_btn_cancel"
+	            android:paddingLeft="60dp"
+	            android:paddingRight="60dp"/>            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

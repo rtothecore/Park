@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/selectincararea_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:id="@+id/ll_car_range"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal" 
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        >
+<!-- 
+        <TextView
+            android:id="@+id/tv_label_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주차면"
+            android:textSize="16sp" 
+            android:layout_marginRight="5dip"
+            android:textColor="@android:color/white"
+            />
+ -->
+        <EditText
+            android:id="@+id/et_range1"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent" 
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:maxLength="3"
+            android:layout_marginRight="5dip"
+            />
+
+        <TextView
+            android:id="@+id/tv_label_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="~"
+            android:layout_marginRight="5dip"
+            android:textSize="16sp" 
+            android:textColor="@android:color/white"
+            />
+
+        <EditText
+            android:id="@+id/et_range2"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:maxLength="3" 
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="80dip"
+            android:layout_height="40dp"
+            android:text="확인" 
+            android:layout_marginLeft="5dip"
+            style="@style/style_btn_confirm"
+            />
+        
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="80dip"
+            android:layout_height="40dp"
+            android:text="취소" 
+            android:layout_marginLeft="5dip"
+            style="@style/style_btn_cancel"
+            />
+        
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_cars"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:horizontalSpacing="2dip"
+        android:numColumns="4"
+        android:verticalSpacing="2dip" 
+        android:minHeight="80dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        >
+    </GridView>
+
+</LinearLayout>

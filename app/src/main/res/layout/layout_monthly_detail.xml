@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_body_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+
+        <LinearLayout
+            android:id="@+id/ll_btns"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/style_btn_confirm_light"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="수납" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/style_btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ll_btns"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/loginboxbottom" />
+
+        <TableLayout
+            android:id="@+id/btn_collect_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp" >
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="차량번호"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    layout="@layout/layout_carnums_type2" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="주차장명"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_parking_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:enabled="false" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="유형"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_parking_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:enabled="false" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="시작일자"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_parking_startdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:enabled="false" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="종료일자"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_parking_enddate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:enabled="false" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="할인유형"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_discount_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:enabled="false" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="할증유형"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_extrafee_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dot" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="요    금"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/et_parking_rate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:enabled="false" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

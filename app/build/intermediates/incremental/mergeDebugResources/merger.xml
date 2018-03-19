@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\workspace\StudioProjects\Park\app\src\main\res"/><source path="D:\workspace\StudioProjects\Park\app\build\generated\res\rs\debug"/><source path="D:\workspace\StudioProjects\Park\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\workspace\StudioProjects\Park\app\src\main\res"><file name="btn_dropdown" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable\btn_dropdown.xml" qualifiers="" type="drawable"/><file name="bg_photo" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\bg_photo.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_showcamera" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\bg_showcamera.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_bg" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_bg.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_camera" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_camera.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_cancel_incar" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_cancel_incar.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_dropdown_disabled" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_dropdown_disabled.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_dropdown_disabled_focused" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_dropdown_disabled_focused.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_dropdown_normal" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_dropdown_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_dropdown_pressed" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_dropdown_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_dropdown_selected" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_dropdown_selected.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_incar" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_incar.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_income" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_income.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_outcar" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_outcar.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_receipt" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_receipt.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_top_no" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_top_no.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_top_ok" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_top_ok.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_type1_off" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_type1_off.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_type1_off_light" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_type1_off_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_type1_off_yellow" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_type1_off_yellow.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_type1_on" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\btn_type1_on.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="button" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\button.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="calendar" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\calendar.png" qualifiers="hdpi-v4" type="drawable"/><file name="car" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\car.png" qualifiers="hdpi-v4" type="drawable"/><file name="clock" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\clock.png" qualifiers="hdpi-v4" type="drawable"/><file name="clouds" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\clouds.png" qualifiers="hdpi-v4" type="drawable"/><file name="column" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\column.png" qualifiers="hdpi-v4" type="drawable"/><file name="dot" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\dot.png" qualifiers="hdpi-v4" type="drawable"/><file name="editbox_background_focus_yellow" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\editbox_background_focus_yellow.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="editbox_background_normal" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\editbox_background_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="fax" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\fax.png" qualifiers="hdpi-v4" type="drawable"/><file name="graybox" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\graybox.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_btn_search" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\ic_btn_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="li2" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\li2.png" qualifiers="hdpi-v4" type="drawable"/><file name="login" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\login.png" qualifiers="hdpi-v4" type="drawable"/><file name="loginboxbottom" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\loginboxbottom.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="loginfront" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\loginfront.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="microphone" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\microphone.png" qualifiers="hdpi-v4" type="drawable"/><file name="parking" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\parking.png" qualifiers="hdpi-v4" type="drawable"/><file name="selector_btn_onoff" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_btn_onoff.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_btn_onoff_light" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_btn_onoff_light.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_btn_onoff_yellow" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_btn_onoff_yellow.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_carinfo_item" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_carinfo_item.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_carinfo_item_green" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_carinfo_item_green.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_carinfo_item_orange" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_carinfo_item_orange.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_carinfo_item_yellow" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_carinfo_item_yellow.xml" qualifiers="hdpi-v4" type="drawable"/><file name="selector_edittext_onoff" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\selector_edittext_onoff.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_border_carinfo" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_border_carinfo.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_border_carinfo_green" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_border_carinfo_green.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_border_carinfo_orange" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_border_carinfo_orange.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_border_carinfo_pressed" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_border_carinfo_pressed.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_border_carinfo_yellow" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_border_carinfo_yellow.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_btn_blue" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_btn_blue.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_editbox_lemon" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_editbox_lemon.xml" qualifiers="hdpi-v4" type="drawable"/><file name="shape_rounded_bg" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\shape_rounded_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="square_r" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\square_r.png" qualifiers="hdpi-v4" type="drawable"/><file name="s_parking" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\s_parking.png" qualifiers="hdpi-v4" type="drawable"/><file name="text1" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-hdpi\text1.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\StudioProjects\Park\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="device_list" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\device_list.xml" qualifiers="" type="layout"/><file name="device_name" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\device_name.xml" qualifiers="" type="layout"/><file name="dialog_intro" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\dialog_intro.xml" qualifiers="" type="layout"/><file name="dialog_main" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\dialog_main.xml" qualifiers="" type="layout"/><file name="layout_bisreport" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_bisreport.xml" qualifiers="" type="layout"/><file name="layout_camera" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_camera.xml" qualifiers="" type="layout"/><file name="layout_carnums" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_carnums.xml" qualifiers="" type="layout"/><file name="layout_carnums2" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_carnums2.xml" qualifiers="" type="layout"/><file name="layout_carnums_type2" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_carnums_type2.xml" qualifiers="" type="layout"/><file name="layout_collection" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_collection.xml" qualifiers="" type="layout"/><file name="layout_coupon_register" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_coupon_register.xml" qualifiers="" type="layout"/><file name="layout_incar" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_incar.xml" qualifiers="" type="layout"/><file name="layout_inout_camera" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_inout_camera.xml" qualifiers="" type="layout"/><file name="layout_listitem_col2" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_listitem_col2.xml" qualifiers="" type="layout"/><file name="layout_listitem_col3" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_listitem_col3.xml" qualifiers="" type="layout"/><file name="layout_login" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_login.xml" qualifiers="" type="layout"/><file name="layout_main" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_main.xml" qualifiers="" type="layout"/><file name="layout_minap" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_minap.xml" qualifiers="" type="layout"/><file name="layout_misulist" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_misulist.xml" qualifiers="" type="layout"/><file name="layout_monthlylist" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_monthlylist.xml" qualifiers="" type="layout"/><file name="layout_monthly_detail" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_monthly_detail.xml" qualifiers="" type="layout"/><file name="layout_monthly_register" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_monthly_register.xml" qualifiers="" type="layout"/><file name="layout_outcar" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_outcar.xml" qualifiers="" type="layout"/><file name="layout_receipt" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_receipt.xml" qualifiers="" type="layout"/><file name="layout_setting" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_setting.xml" qualifiers="" type="layout"/><file name="layout_test" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_test.xml" qualifiers="" type="layout"/><file name="layout_timedparklist" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_timedparklist.xml" qualifiers="" type="layout"/><file name="layout_trans_data" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_trans_data.xml" qualifiers="" type="layout"/><file name="layout_uncollected" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_uncollected.xml" qualifiers="" type="layout"/><file name="layout_uncollected_detail" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_uncollected_detail.xml" qualifiers="" type="layout"/><file name="layout_uncollected_details" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\layout_uncollected_details.xml" qualifiers="" type="layout"/><file name="list_item" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\list_item.xml" qualifiers="" type="layout"/><file name="list_item_main" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\list_item_main.xml" qualifiers="" type="layout"/><file name="parktiem_incar" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\parktiem_incar.xml" qualifiers="" type="layout"/><file name="parktiem_outcar" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\parktiem_outcar.xml" qualifiers="" type="layout"/><file name="selectincararea_grid" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\selectincararea_grid.xml" qualifiers="" type="layout"/><file name="selectincararea_grid_item" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\selectincararea_grid_item.xml" qualifiers="" type="layout"/><file name="title_layout" path="D:\workspace\StudioProjects\Park\app\src\main\res\layout\title_layout.xml" qualifiers="" type="layout"/><file path="D:\workspace\StudioProjects\Park\app\src\main\res\values\colors.xml" qualifiers=""><color name="selectincararea_textviews_color">#deb887</color><color name="light_cyan">#e0ffff</color><color name="sky_blue">#87ceeb</color><color name="deep_sky_blue">#00bfFf</color><color name="areacolor">#ffc8c8</color><color name="area_num_color">#87ceeb</color><color name="car_num_color">#e0ffff</color><color name="selectincararea_line_color">#5f5f5f</color><color name="selectincararea_bg_color">#6799E2</color><color name="incar_bg_color">#6799E2</color><color name="carnum_text_color">#FE0000</color><color name="parkingtime_text_color">#FE0000</color><color name="orange">#ffa500</color><color name="yellow">#ffd700</color><color name="lemonchiphon">#fffacd</color><color name="green">#adff2f</color><color name="blue">#0000ff</color><color name="dodgerblue">#1e90ff</color><color name="carinfo_pressed">#2f4f4f</color></file><file path="D:\workspace\StudioProjects\Park\app\src\main\res\values\integers.xml" qualifiers=""><integer-array name="reserveparking_times">
+		<item>30</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</integer-array><integer-array name="reserveparking_moneys">
+		<item>1500</item>
+		<item>3000</item>
+		<item>6000</item>
+		<item>9000</item>
+	</integer-array></file><file path="D:\workspace\StudioProjects\Park\app\src\main\res\values\strings.xml" qualifiers=""><string name="area1">1\n t1</string><string name="app_name">공영주차시스템</string><string-array name="arr_coupon_items">
+		<item>100원</item>
+		<item>200원</item>
+		<item>300원</item>
+		<item>400원</item>
+		<item>500원</item>
+		<item>600원</item>
+		<item>1000원</item>
+		<item>1400원</item>
+	</string-array><string-array name="arr_carnum1">
+	    <item>없음</item>
+		<item>서울</item>
+		<item>경기</item>
+		<item>인천</item>
+		<item>부산</item>
+		<item>대구</item>
+		<item>광주</item>
+		<item>대전</item>
+		<item>울산</item>
+		<item>강원</item>
+		<item>충남</item>
+		<item>충북</item>
+		<item>전남</item>
+		<item>전북</item>
+		<item>경남</item>
+		<item>경북</item>
+		<item>제주</item>
+		<item>임시</item>
+	</string-array><string-array name="hangle">
+		<item>ㄱ</item>
+		<item>ㄴ</item>
+		<item>ㄷ</item>
+		<item>ㄹ</item>
+		<item>ㅁ</item>
+		<item>ㅂ</item>
+		<item>ㅅ</item>
+		<item>ㅇ</item>
+		<item>ㅈ</item>
+		<item>ㅊ</item>
+		<item>ㅋ</item>
+		<item>ㅌ</item>
+		<item>ㅍ</item>
+		<item>ㅎ</item>
+	</string-array><string-array name="key_1">
+		<item>가</item>
+		<item>거</item>
+		<item>그</item>
+		<item>고</item>
+		<item>공</item>
+		<item>구</item>
+	</string-array><string-array name="key_2">
+		<item>나</item>
+		<item>너</item>
+		<item>느</item>
+		<item>노</item>
+		<item>누</item>
+	</string-array><string-array name="key_3">
+		<item>다</item>
+		<item>더</item>
+		<item>드</item>
+		<item>도</item>
+		<item>두</item>
+	</string-array><string-array name="key_4">
+		<item>라</item>
+		<item>러</item>
+		<item>르</item>
+		<item>로</item>
+		<item>루</item>
+	</string-array><string-array name="key_5">
+		<item>마</item>
+		<item>머</item>
+		<item>므</item>
+		<item>모</item>
+		<item>무</item>
+	</string-array><string-array name="key_6">
+		<item>바</item>
+		<item>배</item>
+		<item>버</item>
+		<item>브</item>
+		<item>보</item>
+		<item>부</item>
+	</string-array><string-array name="key_7">
+		<item>사</item>
+		<item>서</item>
+		<item>스</item>
+		<item>소</item>
+		<item>수</item>
+	</string-array><string-array name="key_8">
+		<item>아</item>
+		<item>어</item>
+		<item>으</item>
+		<item>오</item>
+		<item>우</item>
+		<item>육</item>
+	</string-array><string-array name="key_9">
+		<item>자</item>
+		<item>저</item>
+		<item>즈</item>
+		<item>조</item>
+		<item>주</item>
+	</string-array><string-array name="key_10">
+		<item>차</item>
+		<item>처</item>
+		<item>츠</item>
+		<item>초</item>
+		<item>추</item>
+	</string-array><string-array name="key_11">
+		<item>카</item>
+		<item>커</item>
+		<item>크</item>
+		<item>코</item>
+		<item>쿠</item>
+	</string-array><string-array name="key_12">
+		<item>타</item>
+		<item>터</item>
+		<item>트</item>
+		<item>토</item>
+		<item>투</item>
+	</string-array><string-array name="key_13">
+		<item>파</item>
+		<item>퍼</item>
+		<item>프</item>
+		<item>포</item>
+		<item>푸</item>
+	</string-array><string-array name="key_14">
+		<item>하</item>
+		<item>해</item>
+		<item>허</item>
+		<item>흐</item>
+		<item>호</item>
+		<item>후</item>
+	</string-array><string-array name="usetype">
+		<item>전일</item>
+		<item>주간</item>
+		<item>야간</item>
+	</string-array></file><file path="D:\workspace\StudioProjects\Park\app\src\main\res\values\styles.xml" qualifiers=""><style name="intro_buttons">
+	<item name="android:layout_width">80dp</item>
+	<item name="android:layout_height">50dp</item>
+</style><style name="main_top_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:layout_marginRight">5dp</item>
+</style><style name="main_top_buttons1">
+	<item name="android:layout_width">70dp</item>
+	<item name="android:layout_height">40dp</item>
+</style><style name="main_center_buttons">
+	<item name="android:layout_width">100dp</item>
+	<item name="android:layout_height">100dp</item>
+</style><style name="incar_layout1_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">18dp</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:gravity">center</item>
+</style><style name="outcar_layout1_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#293b56</item>
+</style><style name="incar_layout1_textviews_content">
+	<item name="android:layout_width">200dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:gravity">center</item>
+</style><style name="outcar_layout1_textviews_content">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:layout_weight">1</item>
+		<item name="android:textSize">15sp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">@android:color/black</item>
+</style><style name="incar_layout3_textviews">
+	<item name="android:layout_width">200dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#000102</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:paddingBottom">5dp</item>
+</style><style name="outcar_layout3_textviews">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:layout_weight">1</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#000102</item>
+	<item name="android:textSize">15sp</item>
+	<item name="android:paddingBottom">5dp</item>
+	<item name="android:paddingRight">5dp</item>
+	<item name="android:background">@drawable/selector_edittext_onoff</item>
+	
+</style><style name="incar_layout3_textviews_title">
+	<item name="android:layout_width">120dp</item>
+	<item name="android:layout_height">40dp</item>
+	<item name="android:textSize">17sp</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#293b56</item>
+	<item name="android:textStyle">bold</item>
+</style><style name="outcar_layout3_textviews_title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:gravity">center_vertical</item>
+	<item name="android:textColor">#293b56</item>
+	<item name="android:textStyle">bold</item>
+</style><style name="incar_layout5_buttons">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_weight">1</item>
+</style><style name="getcarnum1_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style><style name="getcarnum2_buttons">
+	<item name="android:layout_width">80dp</item>
+	<item name="android:layout_height">60dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style><style name="getcarnum3_buttons">
+	<item name="android:layout_width">60dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:layout_margin">5dp</item>
+</style><style name="selectincararea_textviews">
+	<item name="android:layout_width">70dp</item>
+	<item name="android:layout_height">55dp</item>
+	<item name="android:lines">2</item>
+	<item name="android:layout_margin">1dp</item>
+	<item name="android:background">@color/selectincararea_textviews_color</item>
+</style><style name="carnum_textviews">
+	<item name="android:gravity">center</item>	
+	<item name="android:background">@drawable/btn_bg</item>
+	<item name="android:textColor">@color/carnum_text_color</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:textStyle">bold</item>
+</style><style name="LoadingDialog">
+	<item name="android:windowFrame">@null</item>
+	<item name="android:windowBackground">@android:color/transparent</item>
+	<item name="android:windowIsFloating">true</item>
+	<item name="android:windowContentOverlay">@null</item>
+	<item name="android:windowTitleStyle">@null</item>
+	<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+	<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+	<item name="android:backgroundDimEnabled">false</item>
+	<item name="android:background">@android:color/transparent</item>
+</style><style name="style_btn_cancel">
+	<item name="android:background">@drawable/selector_btn_onoff_yellow</item>
+	<item name="android:drawableLeft">@drawable/btn_cancel_incar</item>
+	<item name="android:text">취소</item>
+</style><style name="style_btn_confirm">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:drawableLeft">@drawable/btn_top_ok</item>
+	
+</style><style name="style_btn_confirm_light">
+	<item name="android:background">@drawable/selector_btn_onoff_light</item>
+	<item name="android:drawableLeft">@drawable/btn_top_ok</item>
+	<item name="android:layout_height">50dp</item>
+</style><style name="style_btn_search">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:drawableLeft">@drawable/ic_btn_search</item>
+	<item name="android:text">조회</item>
+</style><style name="style_btn_nomark">
+	<item name="android:background">@drawable/selector_btn_onoff</item>
+	<item name="android:onClick">onClickBtn</item>
+</style><style name="style_btn_editbox">
+	<item name="android:background">@drawable/selector_edittext_onoff</item>
+	
+</style></file></source><source path="D:\workspace\StudioProjects\Park\app\build\generated\res\rs\debug"/><source path="D:\workspace\StudioProjects\Park\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\workspace\StudioProjects\Park\app\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\workspace\StudioProjects\Park\app\src\debug\res"/></dataSet><mergedItems/></merger>

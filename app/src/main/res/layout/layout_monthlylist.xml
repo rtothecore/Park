@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+	<include 
+	    layout="@layout/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    />
+    
+    <RelativeLayout
+        android:id="@+id/rl_body_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+
+		<EditText 
+		    android:id="@+id/et_carnums"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:singleLine="true"
+		    />
+        <Button
+            android:id="@+id/v_body_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/et_carnums"
+            android:layout_alignTop="@+id/et_carnums"
+            android:layout_marginRight="5dp"
+            style="@style/style_btn_search"
+            android:onClick="btnListener"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_btns"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" 
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <Button
+                android:id="@+id/btn_incar_receipt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1" 
+                android:text="확인"
+                style="@style/style_btn_confirm_light"
+                android:onClick="btnListener"
+                />
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1" 
+                android:text="등록"
+                style="@style/style_btn_confirm_light"
+                android:onClick="btnListener"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                style="@style/style_btn_cancel"
+                android:layout_weight="1"
+                android:onClick="btnListener"
+                />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_monthly"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ll_btns"
+            android:layout_below="@+id/et_carnums"
+            android:background="@drawable/loginboxbottom"
+            android:layout_margin="5dp"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

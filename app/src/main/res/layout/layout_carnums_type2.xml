@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_incar_carnum1"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/selector_edittext_onoff"
+        android:onClick="onClickBtn" 
+        android:layout_marginTop="-2dp"
+        />
+
+    <EditText
+        android:id="@+id/et_incar_carnum2"
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLength="2"/>
+
+   <Button
+        android:id="@+id/et_incar_carnum3"
+       	android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_edittext_onoff"
+        android:onClick="onClickBtn"
+        android:layout_marginTop="-2dp"/>
+
+    <EditText
+        android:id="@+id/et_incar_carnum4"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:layout_weight="1"
+        android:maxLength="4"/>
+
+</LinearLayout>

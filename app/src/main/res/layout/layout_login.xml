@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="match_parent" android:background="@drawable/clouds">
+	<View android:id="@+id/v_graybox" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginTop="120dip" android:layout_marginBottom="10dp" android:background="@drawable/graybox" />
+	<Button android:id="@+id/iv_parksign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="15dip" android:background="@drawable/parking" />
+	<ImageView android:id="@+id/iv_sign_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/iv_parksign" android:layout_centerHorizontal="true" android:layout_marginTop="-7dip" android:background="@drawable/column" />
+	<ImageView android:id="@+id/iv_park_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dip" android:layout_marginTop="145dip" android:background="@drawable/s_parking" />
+	<View android:id="@+id/v_loginbox_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_marginBottom="80dip" android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:layout_marginTop="200dip" android:background="@drawable/loginboxbottom" />
+	<ImageView android:id="@+id/iv_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/v_loginbox_bottom" android:layout_marginBottom="5dip" android:layout_marginLeft="4dip" android:layout_marginTop="155dp" android:layout_toRightOf="@+id/iv_park_logo" android:background="@drawable/text1" />
+	<ImageView android:id="@+id/iv_login_car" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/iv_park_logo" android:layout_marginBottom="25dip" android:layout_marginLeft="15dip" android:layout_toRightOf="@+id/iv_sign_holder" android:background="@drawable/car" />
+	<ImageView android:id="@+id/iv_title_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/v_loginbox_bottom" android:layout_centerHorizontal="true" android:layout_marginTop="20dip" android:background="@drawable/login" />
+	<View android:id="@+id/v_login_front" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="90dip" android:layout_marginLeft="30dip" android:layout_marginRight="30dip" android:layout_marginTop="260dip" android:background="@drawable/loginfront" />
+	<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/v_login_front" android:layout_centerHorizontal="true" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginTop="30dp">
+		<TableRow android:gravity="center_vertical">
+			<ImageView android:id="@+id/iv_login_dot1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dot" />
+			<TextView android:id="@+id/tv_login_id" android:layout_width="60dip" android:layout_height="50dp" android:text="아이디" android:layout_marginLeft="3dp" android:gravity="center_vertical" android:textColor="@android:color/black" android:textSize="17sp" />
+			<EditText android:id="@+id/et_login_id" android:layout_width="fill_parent" android:layout_height="45dip" android:layout_weight="1" android:inputType="phone" android:maxLength="4" android:textSize="15sp" />
+		</TableRow>
+		<TableRow android:gravity="center_vertical">
+			<ImageView android:id="@+id/iv_login_dot2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dot" />
+			<TextView android:id="@+id/tv_login_pwd" android:layout_width="60dip" android:layout_height="50dp" android:text="암    호" android:gravity="center_vertical" android:layout_marginLeft="3dp" android:textColor="@android:color/black" android:textSize="17sp" />
+			<EditText android:id="@+id/et_login_pwd" android:layout_width="fill_parent" android:layout_height="45dp" android:layout_weight="1" android:inputType="phone" android:maxLength="4" android:textSize="15sp" android:password="true" />
+		</TableRow>
+	</TableLayout>
+	<Button android:id="@+id/btn_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/selector_btn_onoff" android:text="  설정  " android:layout_alignBottom="@+id/v_login_front" android:layout_marginBottom="30dp" android:layout_centerHorizontal="true"/>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="50dip" android:layout_alignBottom="@+id/v_graybox" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="10dp" android:orientation="horizontal">
+		<Button android:id="@+id/btn_login_ok" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:background="@drawable/selector_btn_onoff" android:drawableLeft="@drawable/btn_top_ok" android:text="확인" android:layout_marginRight="5dp" android:textSize="17sp" />
+		<Button android:id="@+id/btn_login_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:background="@drawable/selector_btn_onoff" android:drawableLeft="@drawable/btn_top_no" android:layout_marginLeft="5dp" android:text="종료" android:textSize="17sp" />
+	</LinearLayout>
+</RelativeLayout>

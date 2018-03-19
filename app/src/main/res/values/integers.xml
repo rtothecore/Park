@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer-array name="reserveparking_times">
+		<item>30</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</integer-array>
+	<integer-array name="reserveparking_moneys">
+		<item>1500</item>
+		<item>3000</item>
+		<item>6000</item>
+		<item>9000</item>
+	</integer-array>
+	    	
+</resources>

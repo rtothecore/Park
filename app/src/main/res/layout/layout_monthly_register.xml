@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+	<include 
+	    layout="@layout/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    />
+    
+    <RelativeLayout
+        android:id="@+id/rl_body_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+        
+        <LinearLayout android:id="@+id/modify_btns" android:layout_width="fill_parent" android:layout_height="50dp" android:layout_alignParentBottom="true" android:gravity="center_vertical" android:layout_margin="5dp" android:orientation="horizontal">
+            <Button android:id="@+id/btn_modify_delete"
+                android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2dp" android:layout_weight="1" 
+				android:text="삭제" style="@style/style_btn_confirm_light" android:onClick="btnListener"/>
+
+            <Button android:id="@+id/btn_modify_receipt"
+                android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2dp" android:layout_weight="1" 
+                android:text="영수증" style="@style/style_btn_confirm_light" android:onClick="btnListener"/>
+
+            <Button
+                android:id="@+id/btn_modify_cancel"
+                android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2dp" style="@style/style_btn_cancel" android:layout_weight="1" android:onClick="btnListener"/>
+        </LinearLayout>
+        
+        <LinearLayout android:id="@+id/insert_btns" android:layout_width="fill_parent" android:layout_height="50dp" android:layout_alignParentBottom="true" android:gravity="center_vertical" android:layout_margin="5dp" android:orientation="horizontal">
+            <Button android:id="@+id/btn_ok" style="@style/style_btn_confirm_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5dp" android:layout_weight="1" android:text="확인" android:onClick="btnListener" />
+            <Button android:id="@+id/btn_cancel" style="@style/style_btn_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5dp" android:layout_weight="1" android:onClick="btnListener" />
+        </LinearLayout>
+		
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/loginboxbottom"
+            android:layout_above="@+id/insert_btns"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            />
+        <TableLayout
+            android:id="@+id/btn_collect_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" >
+            <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="이용구분"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<Button
+				    android:id="@+id/btn_usetype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickBtn"
+                    android:background="@drawable/btn_dropdown"
+                    android:text="전일"
+				    />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="이용기간"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<Button 
+				    android:id="@+id/btn_use_period_start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickBtn"
+                    android:background="@drawable/btn_dropdown"
+				    />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+                <View
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"/>
+				<Button 
+				    android:id="@+id/btn_use_period_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickBtn"
+                    android:background="@drawable/btn_dropdown"
+				    />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="할인유형"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"/>
+				<Button
+				    android:id="@+id/btn_sales_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickBtn"
+                    android:background="@drawable/btn_dropdown"
+                    android:text="일반"
+				    />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="이용요금"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"/>
+				<EditText
+				    android:id="@+id/et_usage_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:gravity="center_vertical|right"
+                    android:nextFocusDown="@+id/et_name"/>
+				<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="원"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="차량번호"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<include
+				    android:id="@+id/ll_carnums"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    layout="@layout/layout_carnums_type2"
+				    />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="성명"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<EditText
+				    android:id="@+id/et_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+				    />
+            </TableRow>
+                        <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="차종"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<EditText
+				    android:id="@+id/et_car_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+				    />
+            </TableRow>
+                        <TableRow android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="연락처"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+				<EditText
+				    android:id="@+id/et_phonenum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:inputType="phone|textPhonetic"
+                    android:singleLine="true"
+				    />
+            </TableRow>
+                        
+            </TableLayout>
+    </RelativeLayout>
+</LinearLayout>

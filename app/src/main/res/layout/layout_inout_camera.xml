@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_body_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+        <LinearLayout
+            android:id="@+id/ll_btns"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" 
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1" 
+                style="@style/style_btn_confirm"
+                android:text="확인"
+                android:onClick="btnListener"
+                />
+            <Button
+                android:id="@+id/btn_receipt"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1" 
+                android:text="촬영"
+                android:background="@drawable/selector_btn_onoff_light"
+                android:drawableLeft="@drawable/btn_camera"
+                android:onClick="btnListener"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                style="@style/style_btn_cancel"
+                android:layout_weight="1"
+                android:onClick="btnListener" />
+        </LinearLayout>
+        
+        <TableLayout
+            android:id="@+id/tl_labels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           	android:layout_marginLeft="10dp"
+            >
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="근 무 자 : " 
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_staffname"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical" 
+                    android:singleLine="true"
+                    android:textColor="#ffffffff"/>
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:text="근무일자 : " />
+
+                <TextView
+                    android:id="@+id/tv_workdate"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffffff" />
+            </TableRow>
+        </TableLayout>
+        <RadioGroup 
+                    android:id="@+id/rg_inout"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            android:layout_toRightOf="@+id/tl_labels"
+		            android:layout_alignTop="@+id/tl_labels"
+		            android:checkedButton="@+id/rb_1"
+            >
+            <RadioButton 
+                    android:id="@+id/rb_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="출근"
+                />
+            <RadioButton 
+                    android:id="@+id/rb_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="퇴근"
+                />
+        </RadioGroup>
+        
+        <RelativeLayout 
+               android:id="@+id/fl_camera"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_above="@+id/ll_btns"
+               android:layout_below="@+id/tl_labels"
+            >
+            <ImageView 
+            	android:id="@+id/iv_camera_img"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+				android:background="@drawable/bg_showcamera"                
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

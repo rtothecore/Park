@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_body_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+
+        <include
+            android:id="@+id/ll_carnums"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            layout="@layout/layout_carnums_type2" />
+
+        <Button
+            android:id="@+id/v_body_bg"
+            style="@style/style_btn_search"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ll_carnums" />
+
+        <LinearLayout
+            android:id="@+id/ll_btns"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical" >
+            
+            <TextView android:id="@+id/total_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="22dp" android:textColor="#ffff0000" android:layout_gravity="right" android:textStyle="bold"/>
+            
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="50dp" android:gravity="center_vertical">
+                <Button
+                android:id="@+id/btn_ok"
+                style="@style/style_btn_confirm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="확인" />
+
+          	  	<Button
+                android:id="@+id/btn_cancel"
+                style="@style/style_btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_uncollected"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ll_btns"
+            android:layout_below="@+id/ll_carnums"
+            android:layout_margin="10dp"
+            android:background="@drawable/loginboxbottom"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

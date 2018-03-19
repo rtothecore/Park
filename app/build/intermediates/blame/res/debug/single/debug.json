@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fax.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\fax.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_monthly_detail.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_monthly_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_btn_onoff.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_btn_onoff.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_intro.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\dialog_intro.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_uncollected.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_uncollected.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_monthly_register.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_monthly_register.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_selectincararea_grid.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\selectincararea_grid.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_main.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\list_item_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_column.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\column.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_monthlylist.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_monthlylist.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_editbox_background_focus_yellow.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\editbox_background_focus_yellow.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_selectincararea_grid_item.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\selectincararea_grid_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_li2.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\li2.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_type1_on.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_type1_on.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_top_ok.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_top_ok.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_listitem_col3.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_listitem_col3.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_loginfront.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\loginfront.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_misulist.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_misulist.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_btn_blue.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_btn_blue.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dot.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\dot.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\login.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_dropdown_pressed.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_dropdown_pressed.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_outcar.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_outcar.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_inout_camera.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_inout_camera.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_button.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\button.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_list.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_login.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_camera.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_camera.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clouds.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\clouds.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_border_carinfo_orange.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_border_carinfo_orange.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_outcar.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_outcar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_photo.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\bg_photo.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_camera.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_camera.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_bg.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_test.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_test.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clock.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\clock.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_dropdown.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable\\btn_dropdown.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_border_carinfo.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_border_carinfo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_carnums2.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_carnums2.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_timedparklist.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_timedparklist.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_coupon_register.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_coupon_register.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_incar.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_incar.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_bisreport.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_bisreport.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_incar.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_incar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_carinfo_item_green.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_carinfo_item_green.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_dropdown_selected.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_dropdown_selected.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_receipt.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_receipt.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_uncollected_details.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_uncollected_details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_carnums_type2.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_carnums_type2.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_cancel_incar.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_cancel_incar.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_main.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\dialog_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_border_carinfo_green.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_border_carinfo_green.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_calendar.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\calendar.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_graybox.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\graybox.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_parktiem_outcar.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\parktiem_outcar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_dropdown_disabled_focused.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_dropdown_disabled_focused.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_edittext_onoff.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_edittext_onoff.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_square_r.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\square_r.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_uncollected_detail.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_uncollected_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_loginboxbottom.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\loginboxbottom.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_collection.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_collection.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_top_no.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_top_no.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_minap.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_minap.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_carinfo_item_orange.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_carinfo_item_orange.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_dropdown_normal.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_dropdown_normal.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_s_parking.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\s_parking.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_main.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_setting.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_setting.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_editbox_lemon.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_editbox_lemon.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_text1.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\text1.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_income.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_income.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_editbox_background_normal.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\editbox_background_normal.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_btn_search.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\ic_btn_search.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_border_carinfo_yellow.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_border_carinfo_yellow.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_parking.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\parking.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_border_carinfo_pressed.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_border_carinfo_pressed.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_title_layout.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\title_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_type1_off.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_type1_off.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_type1_off_light.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_type1_off_light.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_carinfo_item_yellow.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_carinfo_item_yellow.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_listitem_col2.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_listitem_col2.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_parktiem_incar.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\parktiem_incar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_carnums.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_carnums.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shape_rounded_bg.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\shape_rounded_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_microphone.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\microphone.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_carinfo_item.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_carinfo_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_trans_data.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\layout\\layout_trans_data.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_receipt.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_receipt.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_type1_off_yellow.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_type1_off_yellow.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_dropdown_disabled.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\btn_dropdown_disabled.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_btn_onoff_light.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_btn_onoff_light.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_car.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\car.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_showcamera.9.png.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\bg_showcamera.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_selector_btn_onoff_yellow.xml.flat",
+        "source": "D:\\workspace\\StudioProjects\\Park\\app\\src\\main\\res\\drawable-hdpi\\selector_btn_onoff_yellow.xml"
+    }
+]

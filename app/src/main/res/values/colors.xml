@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="selectincararea_textviews_color">#deb887</color>
+<color name="light_cyan">#e0ffff</color>
+<color name="sky_blue">#87ceeb</color>
+<color name="deep_sky_blue">#00bfFf</color>
+<color name="areacolor">#ffc8c8</color>
+<color name="area_num_color">#87ceeb</color>
+<color name="car_num_color">#e0ffff</color>
+<color name="selectincararea_line_color">#5f5f5f</color>
+<color name="selectincararea_bg_color">#6799E2</color>
+<color name="incar_bg_color">#6799E2</color>
+<color name="carnum_text_color">#FE0000</color>
+<color name="parkingtime_text_color">#FE0000</color>
+<color name="orange">#ffa500</color>
+<color name="yellow">#ffd700</color>
+<color name="lemonchiphon">#fffacd</color>
+<color name="green">#adff2f</color>
+<color name="blue">#0000ff</color>
+<color name="dodgerblue">#1e90ff</color>
+<color name="carinfo_pressed">#2f4f4f</color>
+</resources>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rounded_bg" >
+
+        <!-- =====================================================large layout1 start=================================================== -->
+        <!-- input box for car number  start -->
+
+        <include
+            android:id="@+id/ll_carnum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            layout="@layout/layout_carnums" />
+        <!-- input box for car number  finish -->
+        <!-- =====================================================large layout1 finish=================================================== -->
+        <!-- =====================================================large layout2 start=================================================== -->
+
+
+        <!-- the layout for getting carmera image  start -->
+
+        <RelativeLayout
+            android:id="@+id/v_camera_bg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ll_carnum"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_showcamera"
+            android:gravity="center" >
+        
+            <ImageView
+            android:id="@+id/imageview_showcameraimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/v_camera_bg"
+            android:scaleType="fitXY"/>
+            
+          </RelativeLayout>
+
+        
+        <!-- the layout for getting carmera image  finish -->
+		<LinearLayout 
+		    android:id="@+id/ll_caminfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/v_camera_bg"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/v_camera_bg" 
+            android:orientation="vertical"
+		    >
+            <TextView
+                android:id="@+id/tv_label_intime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="입차일자 "
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_incar_time"
+                style="@style/style_btn_editbox"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tv_label_parkside"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="주차면 "
+                android:textColor="@android:color/black"
+                android:textSize="15sp" 
+                />
+
+            <EditText
+                android:id="@+id/et_selected_area"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:text="1" 
+                android:gravity="center"
+                android:enabled="false"
+                android:layout_gravity="center_horizontal"
+                />
+		    		    
+		</LinearLayout>
+        <!-- =====================================================large layout2 finish=================================================== -->
+
+
+        <!-- =====================================================large layout3 start=================================================== -->
+
+        <LinearLayout
+            android:id="@+id/ll_carinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/ll_caminfo"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginboxbottom"
+            android:gravity="center" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                >
+
+                <TableRow android:gravity="center_vertical" 
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="예정시간"
+                        android:imeOptions="actionDone"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingRight="10dp"
+                        android:text="0"
+                        android:imeOptions="actionDone"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" 
+                        android:layout_marginTop="2dp"
+				        android:id="@+id/et_reservetime"
+				       	android:layout_height="40dp"
+				        android:inputType="phone" />
+
+                    <TextView
+                        android:id="@+id/tv_label_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="분"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                    
+                    <CheckBox 
+                        android:id="@+id/ch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="완납"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                    
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="할인 유형"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/btn_discount_type1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:text="일반"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" 
+                        android:background="@drawable/btn_dropdown"/>
+                    
+                    <Button
+                        android:id="@+id/btn_discount_type2"
+                        android:background="@drawable/btn_dropdown"
+                        android:onClick="onClickBtn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:text="일반"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" />
+
+                    <ViewStub
+                        android:id="@+id/tv_label_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="할증 유형"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/btn_penalty_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="35dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_dropdown"
+                        android:paddingRight="10dp"
+                        android:text="일반"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" 
+                        android:onClick="onClickBtn"
+                        />
+
+                    <ViewStub
+                        android:id="@+id/tv_label_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="선불금"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/et_advancepayment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:inputType="number"
+                        android:paddingRight="10dp"
+                        android:text="0"
+                        android:enabled="false"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" 
+                        android:layout_marginTop="2dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_label_won"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="원"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <!-- =====================================================large layout3 finish=================================================== -->
+
+
+        <!-- =====================================================large layout4 start=================================================== -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="수정"
+                android:textSize="15sp" 
+                style="@style/style_btn_confirm_light"
+                android:onClick="btnListener" />
+            
+            <Button
+                android:id="@+id/btn_receipt"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="입차증"
+                android:textSize="15sp" 
+                style="@style/style_btn_confirm_light"
+                android:onClick="btnListener" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                style="@style/style_btn_cancel"
+                android:textSize="15sp"
+                android:onClick="btnListener" />
+        </LinearLayout>
+        <!-- =====================================================large layout4 finish=================================================== -->
+
+    </RelativeLayout>
+
+</LinearLayout>

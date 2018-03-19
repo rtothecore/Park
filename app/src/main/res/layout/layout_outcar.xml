@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clouds"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:id="@+id/ll_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" 
+        android:background="@drawable/shape_rounded_bg"
+        android:layout_margin="5dp"
+        >
+
+        <!-- =====================================================large layout1 start=================================================== -->
+        <!-- input box for car number  start -->
+
+        <include
+            android:id="@+id/ll_camnums"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            layout="@layout/layout_carnums2" />
+        <!-- input box for car number  finish -->
+        <!-- =====================================================large layout1 finish=================================================== -->
+        <!-- =====================================================large layout2 start=================================================== -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:baselineAligned="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <!-- the layout for getting carmera image  start -->
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/bg_showcamera"
+                android:gravity="center"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageview_showcameraimage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY">
+                </ImageView>
+            </LinearLayout>
+            <!-- the layout for getting carmera image  finish -->
+			
+			<LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_weight="1"
+                android:orientation="vertical"
+			    >
+                    <TextView
+                        style="@style/outcar_layout1_textviews_title"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="입차시간" />
+
+                    <TextView
+                        android:id="@+id/textview_incar_time"
+                        style="@style/outcar_layout1_textviews_content" 
+                        android:background="@drawable/editbox_background_normal"
+                        />
+                    <TextView
+                        style="@style/outcar_layout1_textviews_title"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="출차시간" />
+
+                    <TextView
+                        android:id="@+id/textview_outcar_time"
+                        android:background="@drawable/editbox_background_normal"
+                        style="@style/outcar_layout1_textviews_content" />
+                    
+                    <TextView
+                        style="@style/outcar_layout1_textviews_title"
+                        android:text="주차시간" 
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:id="@+id/textview_parking_time"
+                        style="@style/outcar_layout1_textviews_content" 
+                        android:background="@drawable/editbox_background_normal"
+                        android:text="30분"
+                        android:onClick="onClickBtn"
+                        android:textColor="@color/parkingtime_text_color" />
+                    			    			    
+			</LinearLayout>
+			
+        </LinearLayout>
+        <!-- =====================================================large layout2 finish=================================================== -->
+
+
+        <!-- =====================================================large layout3 start=================================================== -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+            >
+			
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            	    
+                <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="5"
+	                android:text="출차 유형" 
+	                android:textColor="#293b56"
+	                android:gravity="center"/>
+                
+               <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="5"
+	                android:text="핸드폰" 
+	                android:textColor="#293b56"
+	                android:gravity="center"/>
+                
+            </LinearLayout>
+            
+             <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            	    
+                <Button
+                   android:id="@+id/btn_outcar_outcartype"
+		           android:layout_width="fill_parent"
+		           android:layout_height="30dp"
+		           android:layout_weight="5"
+		           android:text="일반" 
+		           android:onClick="onClickBtn"
+		           android:background="@drawable/btn_dropdown"
+                   />
+            
+                
+               <EditText
+			        android:id="@+id/et_phone"
+			        android:layout_width="fill_parent"
+			        android:layout_height="40dp"
+			        android:layout_weight="5"
+			        android:maxLength="15"
+			        android:imeOptions="actionDone"
+			        android:inputType="phone" />
+                
+            </LinearLayout>
+                   
+                   
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                >
+                <TableRow
+	                android:gravity="center_vertical"
+                    >
+                    <TextView
+                        style="@style/outcar_layout3_textviews_title"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="할인 유형1" />
+                    <TextView
+                        style="@style/outcar_layout3_textviews_title"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="할인 유형2" />
+                    					
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center_vertical"
+                    >
+
+                    <Button
+                        android:id="@+id/btn_outcar_saleofftype1"
+		                android:layout_width="0dp"
+		                android:layout_height="30dp"
+		                android:layout_weight="1"
+		                android:onClick="onClickBtn"
+		                android:background="@drawable/btn_dropdown"
+                        />
+                    <Button
+                        android:id="@+id/btn_outcar_saleofftype2"
+		                android:layout_width="0dp"
+		                android:layout_height="30dp"
+		                android:layout_weight="1"
+		                android:onClick="onClickBtn"
+		                android:background="@drawable/btn_dropdown"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center_vertical"
+                    >
+                    <TextView
+                        style="@style/outcar_layout3_textviews_title"
+		                android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="할증 유형" />
+                    <TextView
+                        android:id="@+id/textview_extraparkingfee"
+                        style="@style/outcar_layout3_textviews_title"
+		                android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="쿠폰" />
+                    
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center_vertical"
+                    >
+                    <Button
+                        android:id="@+id/btn_outcar_extrafeetype"
+		                android:layout_width="fill_parent"
+		                android:layout_height="30dp"
+		                android:layout_weight="5"
+		                android:onClick="onClickBtn"
+		                android:background="@drawable/btn_dropdown"
+                        />
+	                 <EditText
+				        android:id="@+id/et_coupon"
+				        android:layout_width="fill_parent"
+				        android:layout_height="40dp"
+				        android:layout_weight="5"
+				        android:maxLength="15"
+				        android:text="0"
+				        android:gravity="center_vertical|right"
+				        android:imeOptions="actionDone"
+				        android:inputType="phone" />
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center_vertical"
+                    >
+
+                    <TextView
+                        style="@style/outcar_layout3_textviews_title"
+		                android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="선불금" />
+
+                    <TextView
+                        style="@style/outcar_layout3_textviews_title"
+                        android:text="요금" 
+                        android:gravity="center"
+		                android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center_vertical"
+                    >
+                    <TextView
+                        android:id="@+id/tv_outcar_prepaid"
+		                android:layout_width="fill_parent"
+		                android:layout_height="45dp"
+		                android:layout_weight="1"
+		                android:gravity="center_vertical|right"
+		                android:textColor="#ff000000"
+                        android:background="@drawable/selector_edittext_onoff"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/textview_parkingfee"
+                        android:layout_width="fill_parent"
+		                android:layout_height="45dp" 
+                        android:layout_weight="1"
+                        android:gravity="right|center_vertical"
+                        android:text="0원"
+                        android:textColor="#f04a00"
+                        android:textStyle="bold" 
+                        android:background="@drawable/selector_edittext_onoff"
+                        android:enabled="false"
+                        android:textSize="20dp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <!-- =====================================================large layout3 finish=================================================== -->
+
+
+        <!-- =====================================================large layout4 start=================================================== -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" 
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            >
+
+            <Button
+                android:id="@+id/btn_outcar"
+                android:text="출차"
+                android:layout_marginRight="5dp"
+                style="@style/style_btn_confirm_light"
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	            android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="취소"
+                android:layout_marginLeft="5dp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	            android:layout_weight="1"
+	            style="@style/style_btn_cancel"
+                />
+        </LinearLayout>
+        <!-- =====================================================large layout4 finish=================================================== -->
+    </LinearLayout>
+
+</LinearLayout>
