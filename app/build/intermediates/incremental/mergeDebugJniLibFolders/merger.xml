@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\workspace\StudioProjects\Park\app\src\main\jniLibs"><file name="armeabi/libfreeimage.so" path="D:\workspace\StudioProjects\Park\app\src\main\jniLibs\armeabi\libfreeimage.so"/><file name="armeabi/libnpr4core.so" path="D:\workspace\StudioProjects\Park\app\src\main\jniLibs\armeabi\libnpr4core.so"/></source></dataSet><dataSet config="debug"><source path="D:\workspace\StudioProjects\Park\app\src\debug\jniLibs"/></dataSet></merger>
