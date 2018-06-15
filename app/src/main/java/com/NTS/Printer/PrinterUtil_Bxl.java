@@ -101,12 +101,13 @@ public class PrinterUtil_Bxl {
 				PrintText(strTmp);
 				strTmp = "";
 				
-				strTmp = String.format("\n* 문의전화 : 054-850-4710");
+				strTmp = String.format("\n* 문의전화 : 064-753-6677");
 				PrintText(strTmp);
 				strTmp = "";
 
 				// 공단 이름 출력되야함
-				strTmp = "\n" + incar_strPresidentName + "\n";
+				// strTmp = "\n" + incar_strPresidentName + "\n";
+				strTmp = "\n(주)이지정보기술\n";
 				PrintText1(strTmp, 1, 2, 0, 1);
 				strTmp = "";
 
@@ -183,12 +184,13 @@ public class PrinterUtil_Bxl {
 				PrintText(strTmp);
 				strTmp = "";
 				
-				strTmp = String.format("\n* 문의전화 : 054-850-4710");
+				strTmp = String.format("\n* 문의전화 : 064-753-6677");
 				PrintText(strTmp);
 				strTmp = "";
 
 				// 공단 이름 출력되야함
-				strTmp = "\n" + incar_strPresidentName + "\n";
+				// strTmp = "\n" + incar_strPresidentName + "\n";
+				strTmp = "\n(주)이지정보기술\n";
 				PrintText1(strTmp, 1, 2, 0, 1);
 				strTmp = "";
 
@@ -259,11 +261,12 @@ public class PrinterUtil_Bxl {
 				PrintText(strTmp1);
 				strTmp1 = "";
 				
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 				PrintText("\n* 이용해 주셔서 감사합니다.\n");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + incar_strPresidentName + "\n";
+				// strTmp1 = "\n" + incar_strPresidentName + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 
@@ -344,11 +347,12 @@ public class PrinterUtil_Bxl {
 				PrintText(strTmp1);
 				strTmp1 = "";
 				
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 				PrintText("\n* 이용해 주셔서 감사합니다.\n");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				// strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 
@@ -423,10 +427,11 @@ public class PrinterUtil_Bxl {
 				
 				PrintText("\n* 위 금액을 청구합니다.\n미납 주차요금을 익월 말까지 납부하지 않을 시 안동시 주차장 조례 제5조에 의거 주차요금과 같은 금액의 가산금이 부과됩니다.");
 				PrintText("\n* 계좌번호 : 301-0055-8727-41\n은 행 명 : 농협\n예 금 주 : 안동시시설관리공단\n계좌이체시 입금자란에 차량번호 기재바랍니다. (예)" + outcar_strCarNo);
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				// strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 
@@ -496,11 +501,12 @@ public class PrinterUtil_Bxl {
 				strTmp1 = String.format("주차장소: %s\n", misu_strSpaceName1);
 				PrintText(strTmp1);
 				strTmp1 = "";
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 				PrintText("\n* 이용해 주셔서 감사합니다.\n");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + NTSSesstion.getg_president_name(con) + "\n";
+				// strTmp1 = "\n" + NTSSesstion.getg_president_name(con) + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 
@@ -561,12 +567,13 @@ public class PrinterUtil_Bxl {
 				strTmp1 = String.format("주차장소: %s\n", month_strSpaceName);
 				PrintText(strTmp1);
 				strTmp1 = "";
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 				PrintText("\n* 월정차량 환불시 규정\n* 이용자의 사유로 인한 월정기 환불시 공정거래위원회 주차장 관리규정 표준약관 제10016호에 의거 통지한 익일부터 일할로 환산하여 미사용 기간에 대한 주차요금의 80%를 반환합니다.");
 				PrintText("\n* 이용해 주셔서 감사합니다.");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + NTSSesstion.getg_president_name(con).trim() + "\n";
+				// strTmp1 = "\n" + NTSSesstion.getg_president_name(con).trim() + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 
@@ -632,11 +639,12 @@ public class PrinterUtil_Bxl {
 				PrintText(strTmp1);
 				strTmp1 = "";
 
-				PrintText("\n* 문의전화 : 054-850-4710");
+				PrintText("\n* 문의전화 : 064-753-6677");
 				PrintText("\n* 이용해 주셔서 감사합니다.\n");
 
 				// 공단 이름 출력되야함
-				strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				// strTmp1 = "\n" + outcar_strPresidentName + "\n";
+				strTmp1 = "\n(주)이지정보기술\n";
 				PrintText1(strTmp1, 1, 2, 0, 1);
 				strTmp1 = "";
 

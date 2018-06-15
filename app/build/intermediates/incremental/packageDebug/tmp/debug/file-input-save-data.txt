@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Fri Jun 15 16:35:34 KST 2018
+1.base=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+2.path=classes.dex
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+3.set=NATIVE_RESOURCE
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=lib/armeabi/libnpr4core.so
+count=4
+1.set=DEX
+0.path=lib/armeabi/libfreeimage.so
+3.base=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.set=NATIVE_RESOURCE
+0.base=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+2.baseType=DIRECTORY
+1.path=classes.dex

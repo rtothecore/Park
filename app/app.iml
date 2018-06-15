@@ -94,32 +94,35 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 16 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\bw_pos_sdk2.0.21.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\WoosimLib.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\httpclient-4.1.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\httpmime-4.1.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\utility.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\Bxlprint.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\workspace\StudioProjects\Park\app\libs\classes_2.1.26_20170608.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\WoosimLib.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\httpclient-4.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\httpmime-4.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\Bxlprint.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\bw_pos_sdk2.0.21.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\utility.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\workspace\StudioProjects\Park\app\libs\classes_2.1.26_20170608.jar:unspecified@jar" level="project" />
   </component>
 </module>

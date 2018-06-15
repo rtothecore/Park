@@ -1,0 +1,7 @@
+#Fri Jun 15 16:35:33 KST 2018
+base.0=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\workspace\\StudioProjects\\Park\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
